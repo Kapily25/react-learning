@@ -1,0 +1,96 @@
+:root {
+    --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+    --bg-color: rgb(40, 47, 97);
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(11, 26, 51);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    height: 19%;
+}
+
+.nav_bar.logo {
+    display: flex;
+}
+
+.nav_bar .logo .img {
+    height: 90px;
+    width: 90px;
+    object-fit: fill;
+}
+
+.nav_bar .logo {
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right {
+    display: flex;
+}
+
+.nav_bar .nav_items {
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav_bar .nav_items:hover {
+    border-bottom: 3px solid yellow;
+}
+
+.Dropdown {
+    display: none;
+}
+
+.Drop:hover .Dropdown {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -10px;
+    background-color: rgb(1, 241, 249);
+}
+
+.Dropdown ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.Dropdown ul a {
+    padding: 2px;
+    color: rgb(11, 26, 51);
+    display: block;
+    text-align: left;
+}
+
+.Dropdown ul a:hover {
+    border-bottom: 3px solid yellow;
+}
+
+.slideshow {
+    height: 35vh;
+    width: 80%;
+    display: inline-block;
+    justify-content: center;
+    background-color: blueviolet;
+}

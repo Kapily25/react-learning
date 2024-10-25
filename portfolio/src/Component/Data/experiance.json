@@ -1,0 +1,28 @@
+
+[{
+        "id":"1",
+        "role":"senior software devlopment Engineering SDE -II",
+        "organisation":"google",
+        "startDate":"sept 2023",
+        "enddate":"present",
+        "location":"CA,United State",
+        "experiance":[
+            "work on google gmail",
+            "work  with the google bard team"
+        ],
+        "imgSrc":"images/logo/google.png"
+    },
+    {
+        "id":"2",
+        "role":"senior software devlopment Engineering SDE -I",
+        "organisation":"microsoft",
+        "startDate":"sept 2022",
+        "enddate":"aug 2023",
+        "location":"CA,United State",
+        "experiance":[
+            "work on microsoft outlo0k",
+            "work  with the microsoft alpha team"
+        ],
+        "imgSrc":"images/logo/microsoft.png"
+    }
+]
