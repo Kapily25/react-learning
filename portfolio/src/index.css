@@ -1,133 +1,157 @@
-:root{
-  --box-shadow:5px 5px 10px 10px rgba(101,175,10,0.5);
-  --bg-color:rgb(40,47,97);
+:root {
+    --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+    --bg-color: rgb(40, 47, 97);
+}
 
+body {
+    background-color: rgb(11, 26, 51);
+    color: white;
 }
-body{
-  background-color: rgb(11,26,51);
-  color: white;
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
 }
-a{
-  text-decoration: none;
-  color: antiquewhite;
-}
+
+
 /* navebar section */
-.nav_bar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav_bar .nav_items{
-  padding: 16px;
-  font-size: 1.2rem;
-  font-weight: bold;
+
+.nav_bar .nav_items {
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
-.nav_bar .nav_items:hover{
-  border-bottom: 3px solid yellow;
+
+.nav_bar .nav_items:hover {
+    border-bottom: 3px solid yellow;
 }
+
+
 /* home section */
-.home{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80vh;
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
 }
-.home .left{
-  background-color:var(--bg-color);
-  width: 650px;
-  text-align: center;
-  padding: 30px;
-  border-radius: 10px;
-  border: 1px solid yellow;
-  box-shadow: var(--box-shadow);
+
+.home .left {
+    background-color: var(--bg-color);
+    width: 650px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    box-shadow: var(--box-shadow);
 }
-.home .right .img{
- display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
+
+.home .right .img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.home .right .img img{
-  height: 270px;
-  width: 270px;
-  border-radius: 100%;
-  border: 5px solid yellow;
-  animation-name: picanim;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+
+.home .right .img img {
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    border: 5px solid yellow;
+    animation-name: picanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
-@keyframes picanim{
-  0%{
-    border-color: blue;
-    transform: translate(0,0px);
-    box-shadow: 10px 10px 100px 50px blue;
-  }
-  25%{
-    border-color: rgb(239,244,11);
-    box-shadow: 10px 10px 100px 50px rgb(239,244,11);
-  }
-  50%{
-    border-color: rgb(80,12,99);
-    transform: translate(0,10px);
-    box-shadow: 10px 10px 100px 50px rgb(80, 12, 99);
-  }
-  75%{
-    border-color:rgb(130,217,160);
-    box-shadow: 10px 10px 100px 50px rgb(130,217,160);
-  }
-  100%{
-    border-color: rgb(50,55,205);
-    transform: translate(0,-0px);
-    box-shadow: 10px,10px,100px 50px rgb(50,55,205);
-  }
+
+@keyframes picanim {
+    0% {
+        border-color: blue;
+        transform: translate(0, 0px);
+        box-shadow: 10px 10px 100px 50px blue;
+    }
+    25% {
+        border-color: rgb(239, 244, 11);
+        box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    }
+    50% {
+        border-color: rgb(80, 12, 99);
+        transform: translate(0, 10px);
+        box-shadow: 10px 10px 100px 50px rgb(80, 12, 99);
+    }
+    75% {
+        border-color: rgb(130, 217, 160);
+        box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    }
+    100% {
+        border-color: rgb(50, 55, 205);
+        transform: translate(0, -0px);
+        box-shadow: 10px, 10px, 100px 50px rgb(50, 55, 205);
+    }
 }
+
 
 /* experiance */
-.ex{
-  width: 900px;
-}
-.exn{
-  text-align: left;
+
+.ex {
+    width: 900px;
 }
 
-.ex-itams{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--bg-color);
-  margin: 20px;
-  padding: 20px;
-  width: 790px;
-  border: 1px solid yellow;
-  border-radius: 15px;
-  box-shadow: var(--box-shadow);
+.exn {
+    text-align: left;
 }
+
+.ex-itams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    margin: 20px;
+    padding: 20px;
+    width: 790px;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+}
+
+
 /* Skills */
-.skills{
-  width: 700px;
+
+.skills {
+    width: 900px;
 }
-.skills .itams{
-  display: flex;
-  flex-wrap: wrap;
-  /* width: 700px; */
-  justify-content: center;
-  text-align: center;
+
+.skills .itams {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 700px; */
+    justify-content: center;
+    text-align: center;
 }
-.skills .itams .itam{
-  width: 33.33%;
-  margin: 20px;
-  padding: 15px;
-  text-align: center;
-  background-color: black;
-  border: 1px solid yellow;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
+
+.skills .itams .itam {
+    width: 25.33%;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
 }
-.skills .itams .itam img{
-  width: 70px;
-  
+
+.skills .itams .itam img {
+    width: 70px;
 }
+
+
 /* Projects */
+
+
 /* .row{
   display: flex;
   justify-content: center;
@@ -152,29 +176,33 @@ a{
   margin: 10px;
 } */
 
+
 /*contact me  */
-.contact-icon{
-  justify-content: center;
-display: flex;
-  align-items: center;
-}
-.contact-icon .itam{
-  background-color: black;
-  margin: 20px;
-  height: 70px;
-  width: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  border :2px solid yellow
-}
-.contact-icon .itam:hover{
-  background-color: var(--bg-color);
-  box-shadow: var(--box-shadow);
-  color: rgb(252, 252, 154);
+
+.contact-icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
-.contact-icon .itam .icons{
-  font-size: 2rem;
+.contact-icon .itam {
+    background-color: black;
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid yellow
+}
+
+.contact-icon .itam:hover {
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    color: rgb(252, 252, 154);
+}
+
+.contact-icon .itam .icons {
+    font-size: 2rem;
 }

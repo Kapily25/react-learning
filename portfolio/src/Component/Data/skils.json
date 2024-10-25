@@ -1,31 +1,47 @@
-[
-    {"id":"1",
-    "title":"HTML",
-    "imgsrc":"images/skillogo/html.png"
+[{
+        "id": "1",
+        "title": "HTML",
+        "imgsrc": "images/skillogo/html.png"
     },
-    {"id":"2",
-    "title":"JavaScript",
-    "imgsrc":"images/skillogo/js.png"
+    {
+        "id": "2",
+        "title": "JavaScript",
+        "imgsrc": "images/skillogo/js.png"
     },
-    {"id":"3",
-    "title":"CSS",
-    "imgsrc":"images/skillogo/css.png"
+    {
+        "id": "3",
+        "title": "CSS",
+        "imgsrc": "images/skillogo/css.png"
     },
-    {"id":"4",
-    "title":"JAVA",
-    "imgsrc":"images/skillogo/java.png"
+    {
+        "id": "4",
+        "title": "JAVA",
+        "imgsrc": "images/skillogo/java.png"
     },
-    {"id":"5",
-    "title":"PYTHON",
-    "imgsrc":"images/skillogo/python.png"
+    {
+        "id": "5",
+        "title": "PYTHON",
+        "imgsrc": "images/skillogo/python.png"
     },
-    {"id":"6",
-    "title":"SQL",
-    "imgsrc":"images/skillogo/sql.png"
+    {
+        "id": "6",
+        "title": "SQL",
+        "imgsrc": "images/skillogo/sql.png"
+    },
+    {
+        "id": "7",
+        "title": "Mango DB",
+        "imgsrc": "images/skillogo/mangodb.png"
+    },
+    {
+        "id": "8",
+        "title": "React JS",
+        "imgsrc": "images/skillogo/mangodb.png"
+    },
+    {
+        "id": "9",
+        "title": "Bootstrap",
+        "imgsrc": "images/skillogo/mangodb.png"
     }
-    ,
-    {"id":"7",
-    "title":"Mango DB",
-    "imgsrc":"images/skillogo/mangodb.png"
-    }
+
 ]

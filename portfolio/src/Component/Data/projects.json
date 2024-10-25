@@ -1,50 +1,33 @@
-[
-    {
-        "key":"1",
-        "title":"React Portfolio",
-        "imgsrc":"images/skillogo/html.png",
-        "description":"djvbv",
-        "demo":"dnfsd",
-        "source":""
+[{
+        "key": "1",
+        "title": "Portfolio",
+        "imgsrc": "images/skillogo/html.png",
+        "description": " Showcase your work in a polished and professional manner. ",
+        "demo": "dnfsd",
+        "source": "https://github.com/Kapily25/react-learning/tree/main/portfolio"
     },
     {
-        "key":"2",
-        "title":"",
-        "imgsrc":"",
-        "description":"",
-        "demo":"",
-        "source":""
+        "key": "2",
+        "title": "Currency Converter",
+        "imgsrc": "",
+        "description": "We can convert of currency Rate of one country to other country.",
+        "demo": "",
+        "source": "https://github.com/Kapily25/curruncy_converter"
     },
     {
-        "id":"3",
-        "title":"",
-        "imgsrc":"",
-        "description":"",
-        "demo":"",
-        "source":""
+        "id": "3",
+        "title": "Tic-Tac-Toe-game",
+        "imgsrc": "",
+        "description": "Tic-tac-toe, Xs and Os is a paper-and-pencil game for two players ",
+        "demo": "",
+        "source": "https://github.com/Kapily25/Tic-Tac-Toe-game"
     },
     {
-        "id":"4",
-        "title":"",
-        "imgsrc":"",
-        "description":"",
-        "demo":"",
-        "source":""
-    },
-        {
-        "id":"5",
-        "title":"",
-        "imgsrc":"",
-        "description":"",
-        "demo":"",
-        "source":""
-    },
-        {
-        "id":"6",
-        "title":"",
-        "imgsrc":"",
-        "description":"",
-        "demo":"",
-        "source":""
+        "id": "4",
+        "title": "Rock paper scissors",
+        "imgsrc": "",
+        "description": "Rock paper scissors is an intransitive hand game.",
+        "demo": "",
+        "source": "https://github.com/Kapily25/stone_paper_scisso"
     }
 ]

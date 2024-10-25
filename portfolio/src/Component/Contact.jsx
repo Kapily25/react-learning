@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
-import { IoIosContact } from "react-icons/io";
+import { IoIosMail } from "react-icons/io";
 function Contact() {
   return (
     <>
@@ -12,17 +12,17 @@ function Contact() {
       >
         <h1>CONATCT ME</h1>
         <div className="contact-icon">
-          <a href='' className="itam">
+          <a href='https://www.linkedin.com/in/kapil-yadav-40bb05268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' className="itam">
             <FaLinkedin className="icons" />
           </a>
-          <a href='' className="itam">
+          <a href='https://github.com/Kapily25 ' className="itam">
             <FaGithub className="icons" />
           </a>
-          <a href='' className="itam">
+          <a href='https://wa.link/j77rgp' className="itam">
             <FaWhatsapp className="icons" />
           </a>
-          <a href='' className="itam">
-            <IoIosContact className="icons" />
+          <a href='mailto:kapilyadav.ry25@gmail.com' className="itam">
+            <IoIosMail className="icons" />
           </a>
         </div>
       </div>
