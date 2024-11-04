@@ -1,28 +1,26 @@
-
 [{
-        "id":"1",
-        "role":"senior software devlopment Engineering SDE -II",
-        "organisation":"google",
-        "startDate":"sept 2023",
-        "enddate":"present",
-        "location":"CA,United State",
-        "experiance":[
-            "work on google gmail",
-            "work  with the google bard team"
+        "id": "1",
+        "role": "Virtual Internship",
+        "organisation": "YBI Foundation",
+        "startDate": "4 Weeks",
+        "enddate": " ",
+        "location": "",
+        "experiance": [
+            "I Have Done My Internship YBI Foundation In Fundamental Of Machine Learning With Python For Business & Data Analytics."
         ],
-        "imgSrc":"images/logo/google.png"
+        "imgSrc": "images/experiance/ybi.jpeg"
     },
     {
-        "id":"2",
-        "role":"senior software devlopment Engineering SDE -I",
-        "organisation":"microsoft",
-        "startDate":"sept 2022",
-        "enddate":"aug 2023",
-        "location":"CA,United State",
-        "experiance":[
-            "work on microsoft outlo0k",
-            "work  with the microsoft alpha team"
+        "id": "2",
+        "role": "Web Development Intern ",
+        "organisation": "NS Media Solution,",
+        "startDate": "Jun 2019",
+        "enddate": "Oct 2019",
+        "location": "vasai,Maharastra ",
+        "experiance": [
+            "Keyrole in various web projects, focusing on basic site ans template creation.",
+            "Proficient use of HTML, CSS, JavaScript and Bootstrap"
         ],
-        "imgSrc":"images/logo/microsoft.png"
+        "imgSrc": "images/experiance/ns.jpeg"
     }
 ]

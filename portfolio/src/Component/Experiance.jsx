@@ -17,7 +17,8 @@ function Experiance() {
                   </div>
                   <div className="right">
                     <h2>{data.role}</h2>
-                    <h4><span style={{ color: "yellowgreen" }}>{data.startDate}{" "}{data.enddate}</span>{" "}
+                    <h4><span style={{ color: "yellowgreen" }}>{data.startDate}{" "}{data.enddate},</span>{" "}
+                    <span style={{color:"yellow"}}>{data.organisation}{" "}</span>
                     <span style={{color:"yellow"}}>{data.location}</span></h4>
                     <h5 style={{color:"yellow"}}>{data.experiance[0]}</h5>
                     <h5 style={{color:"yellow"}}>{data.experiance[1]}</h5>
