@@ -11,7 +11,10 @@ function Contact() {
         style={{ textAlign: "left", margin: "30px" }}
       >
         <h1>CONATCT ME</h1>
-        <div className="contact-icon">
+        <div className="contact-icon"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        >
           <a href='https://www.linkedin.com/in/kapil-yadav-40bb05268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' className="itam">
             <FaLinkedin className="icons" />
           </a>

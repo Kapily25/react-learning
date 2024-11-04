@@ -8,7 +8,9 @@ function Skills() {
                 <div className="itams" >
                 {skils.map((data) => (
                     <>
-                            <div className="itam" key={data.id}>
+                            <div className="itam" key={data.id}
+                            data-aos="flip-left"
+                            data-aos-duration="1000">
                                 <img src={data.imgsrc} alt="" />
                                 <h3>{data.title}</h3>
                             </div>

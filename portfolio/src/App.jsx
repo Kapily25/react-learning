@@ -6,15 +6,24 @@ import Experiance from './Component/Experiance'
 import Skills from './Component/Skills'
 import Project from './Component/Project'
 import Contact from './Component/Contact'
-function App() {
+import Aos from 'aos';
+import "aos/dist/aos.css"
+import React,{ useEffect } from 'react'
+const App=()=> {
+  useEffect(()=>{
+    Aos.init();
+  },[])
+
   return (
     <>
-      <Navebar/>
+      <Navebar/> 
+      <div className='container'>
       <Home />
       <Experiance />
       <Skills />
       <Project />
       <Contact/>
+      </div>
     </>
   )
 }

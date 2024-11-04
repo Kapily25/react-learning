@@ -9,7 +9,9 @@ function Experiance() {
           experiance.map((data) => {
             return (
               <>
-                <div key={data.id} className="ex-itams my-5">
+                <div key={data.id} className="ex-itams my-5"
+                data-aos="zoom-in"
+                data-aos-duration="1000">
                   <div className="left">
                     <img src={data.imgSrc} style={{ height:"50px", width:"50px"}} alt="" />
                   </div>
