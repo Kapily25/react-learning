@@ -3,7 +3,7 @@ import project from "./Data/projects.json";
 function Project() {
   return (
     <>
-      <div className="conatainer project">
+      <div className="conatainer project" id="projects">
         <h1 style={{ textAlign: "left" }}>PROJECTS</h1>
         <div className="row d-flex justify-content-center align-content-center">
           {project.map((data) => (

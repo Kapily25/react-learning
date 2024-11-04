@@ -3,7 +3,7 @@ import experiance from './Data/experiance.json'
 function Experiance() {
   return (
     <>
-      <div className="container ex">
+      <div className="container ex"id='experience'>
         <h1 className='exn'>EXPERIANCE</h1>
         {
           experiance.map((data) => {

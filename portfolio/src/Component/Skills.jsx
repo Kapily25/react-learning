@@ -3,7 +3,7 @@ import skils from './Data/skils.json'
 function Skills() {
   return (
      <>
-            <div className="container skills">
+            <div className="container skills" id='skills'>
                 <h1 style={{textAlign:"left"}} >SKILS</h1>
                 <div className="itams" >
                 {skils.map((data) => (

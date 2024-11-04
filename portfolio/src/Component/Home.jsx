@@ -17,7 +17,7 @@ function Home() {
   }, [])
   
   return (
-    <div className="container home">
+    <div className="container home"id='home'>
       <div className="left"
       data-aos="fade-up-right"
       data-aos-duration="1000">

@@ -7,7 +7,7 @@ function Contact() {
   return (
     <>
       <div
-        className="conatoner-contac "
+        className="conatoner-contac " id='contact'
         style={{ textAlign: "left", margin: "30px" }}
       >
         <h1>CONATCT ME</h1>
